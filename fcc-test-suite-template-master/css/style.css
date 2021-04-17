@@ -7,17 +7,40 @@ body{
     padding: 0;
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     line-height: 1.4;
 }
 
 header {
+    padding: 1rem 1.2rem;
+    height: 100px;
+    background-color: navy;
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+header.img{
+    width: 100px;
+    height: 50px;
+}
+#nav-bar a{
+ color: white;
+ font-size: 24px;
+ font-weight: bold;
+ text-decoration: none;
+ margin-right: 1rem;
+}
+.vid{display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 #video {
     height: 400px;
-    width: 40%;
-    margin: 2rem auto;
-    display: inline-block;
+    width: 60%;
+    /* margin-left: 5rem; */
+    margin: 1rem auto;
 }
